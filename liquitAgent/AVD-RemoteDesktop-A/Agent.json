@@ -13,7 +13,7 @@
         "triggers": false,
         "autoStart": {
             "enabled": true,
-            "deployment": "Deployment: GW-Intune-Personal",
+            "deployment": "Deployment: GW-AVD-RemoteDesktop-A",
             "timer": 0
         }
     },
