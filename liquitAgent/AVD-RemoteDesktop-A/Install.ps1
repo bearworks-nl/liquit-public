@@ -19,12 +19,14 @@
 
 #Define variables
 
-
+<#
     param (
         [string] $AgentBootstrapperUrl, # https://github.com/bearworks-nl/liquit-public/raw/main/liquitAgent/Intune-Personal/AgentBootstrapper-2.0.0.6.exe
         [string] $AgentJSONUrl # https://github.com/bearworks-nl/liquit-public/raw/main/liquitAgent/Intune-Personal/Agent.json
     )
-
+#>
+$AgentBootstrapperUrl = "https://github.com/bearworks-nl/liquit-public/raw/main/liquitAgent/AVD-RemoteDesktop-A/AgentBootstrapper-2.0.0.6.exe"
+$AgentJSONUrl = "https://github.com/bearworks-nl/liquit-public/raw/main/liquitAgent/AVD-RemoteDesktop-A/Agent.json"
 
 #Variables
 $DownloadPath = "$env:ProgramData\Liquit\Agent\Downloads"
